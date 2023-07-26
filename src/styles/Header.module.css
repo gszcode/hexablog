@@ -1,0 +1,133 @@
+.container {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #272727;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+/* Logo and title styles */
+.header_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+.header_logo img {
+  margin: 0 -10px;
+}
+.header_logo h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+/* Menu styles */
+.header_nav {
+  display: flex;
+}
+.menu_btn {
+  padding: 8px 18px;
+  background-color: transparent;
+  border: 1px solid #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 5px;
+  fill: #999999;
+  cursor: pointer;
+  transition: background 300ms ease;
+}
+.menu_btn:hover {
+  background-color: #807e7e22;
+}
+.header_nav .menu {
+  position: fixed;
+  width: 100%;
+  top: 70px;
+  left: 0;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 50px 15px 50px;
+}
+.header_nav .menu a {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 300ms ease;
+}
+.header_nav .menu a:first-child {
+  color: #5c7f72;
+}
+.header_nav .menu a:hover {
+  color: #5c7f72;
+}
+.hidden_menu,
+.menu_desktop {
+  display: none;
+}
+
+/* Media query 640 */
+@media (min-width: 640px) {
+  .header,
+  .header_nav .menu {
+    padding: 0 100px;
+  }
+}
+/* Media query 768 */
+@media (min-width: 768px) {
+  .header,
+  .header_nav .menu {
+    width: 85%;
+  }
+  .header_nav .menu {
+    left: 8%;
+  }
+}
+/* Media query 1024 */
+@media (min-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+  .menu_btn,
+  .header_nav .menu {
+    display: none;
+  }
+
+  /* Estilos menu desktop */
+  .menu_desktop {
+    display: block;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .header_nav .menu_desktop a {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 300ms ease;
+  }
+  .header_nav .menu_desktop a:first-child {
+    color: #5c7f72;
+  }
+  .header_nav .menu_desktop a:hover {
+    color: #5c7f72;
+  }
+}
