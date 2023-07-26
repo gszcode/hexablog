@@ -4,6 +4,8 @@ import logo from 'public/assets/logo.png'
 import styles from '@/styles/Header.module.css'
 import MenuIcon from './icons/MenuIcon'
 import { useState } from 'react'
+import SmallMenu from './SmallMenu'
+import LargeMenu from './LargeMenu'
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -23,20 +25,10 @@ const Header: React.FC = () => {
           <button className={styles.menu_btn} onClick={handleMenuOpen}>
             <MenuIcon />
           </button>
-          <ul className={menuOpen ? styles.menu : styles.hidden_menu}>
-            <Link href="">HOME</Link>
-            <Link href="">PLANES</Link>
-            <Link href="">TRAINERS</Link>
-            <Link href="">NOSOTROS</Link>
-            <Link href="">CONTACTO</Link>
-          </ul>
-          <ul className={styles.menu_desktop}>
-            <Link href="">HOME</Link>
-            <Link href="">PLANES</Link>
-            <Link href="">TRAINERS</Link>
-            <Link href="">NOSOTROS</Link>
-            <Link href="">CONTACTO</Link>
-          </ul>
+          {/* Menu mobile */}
+          <SmallMenu menuOpen={menuOpen} />
+          {/* Menu desktop */}
+          <LargeMenu />
         </nav>
       </div>
     </header>
