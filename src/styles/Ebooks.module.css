@@ -1,0 +1,124 @@
+.container {
+  padding: 30px 15px;
+}
+.main {
+  max-width: 1200px;
+}
+.title {
+  max-width: 500px;
+  color: var(--white-color);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin: 40px auto;
+  text-align: center;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.article {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.article .ebook_img {
+  max-width: 400px;
+  width: 90%;
+  min-height: 300px;
+  border-radius: 20px;
+  opacity: 0.6;
+}
+.article .ebook_title {
+  position: relative;
+  max-width: 400px;
+  color: var(--secondary-color);
+  font-size: 23px;
+  margin: -27px auto 20px auto;
+  text-align: start;
+  font-weight: bold;
+  text-shadow: 3px 4px 5px #000;
+  padding-left: 20px;
+  z-index: 999;
+}
+.article .ebook_paragraph {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: start;
+  padding-left: 20px;
+  color: var(--tertiary-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+.article .modal {
+  opacity: 0;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  transition: all 300ms ease-in-out;
+}
+.article .modal p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.article .modal a {
+  padding: 14px 20px;
+  background: var(--secondary-color);
+  border-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  transition: all 300ms ease;
+  border: 1px solid transparent;
+}
+.article .modal a:hover {
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+}
+.article:hover .modal {
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+}
+
+/* Media query 1024 */
+@media (min-width: 1024px) {
+  .articles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .article {
+    width: auto;
+    min-height: 500px;
+    padding: 25px 15px;
+    margin-bottom: 35px;
+  }
+  .article .ebook_title {
+    font-size: 30px;
+    margin: -35px auto 10px auto;
+  }
+  .article .ebook_paragraph {
+    font-size: 20px;
+  }
+  .article .modal {
+    width: 360px;
+    top: 25px;
+  }
+}
