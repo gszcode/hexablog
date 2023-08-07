@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logo from 'public/img/logo.png'
 import styles from '@/styles/Header.module.css'
-import MenuIcon from '../icons/MenuIcon'
+import { Menu } from '../icons/MenuIcon'
 import { useState } from 'react'
 import SmallMenu from './SmallMenu'
 import LargeMenu from './LargeMenu'
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
         </Link>
         <nav className={styles.header_nav}>
           <button className={styles.menu_btn} onClick={handleMenuOpen}>
-            <MenuIcon />
+            <Menu />
           </button>
           {/* Menu mobile */}
           <SmallMenu menuOpen={menuOpen} />
