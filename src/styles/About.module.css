@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 .about {
-  max-width: 650px;
+  max-width: 800px;
   width: 95%;
   background-color: rgba(69, 72, 71, 0.1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -41,7 +41,7 @@
 /* Media query 640 */
 @media (min-width: 640px) {
   .about {
-    padding: 30px;
+    padding: 50px;
   }
   .about .title {
     font-size: 50px;
