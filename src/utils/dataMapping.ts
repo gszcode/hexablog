@@ -1,4 +1,4 @@
-interface Data {
+export interface Data {
   id: number
   img: string
   title: string
@@ -94,7 +94,7 @@ export const ebooksData: Array<Data> = [
   },
   {
     id: 6,
-    img: '/img/ebooks_06.jpg',
+    img: '/img/ebooks_6.jpg',
     title: 'entrenamiento principiantes',
     description:
       'Información simple y de calidad, para que puedas sacarle el mejor partido a tus entrenamientos y saber a ciencia cierta si estás haciendo las cosas bien para llegar a tu meta.'
