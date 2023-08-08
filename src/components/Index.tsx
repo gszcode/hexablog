@@ -6,6 +6,7 @@ import Header from './Header/Header'
 import MainSection from './MainSection/MainSection'
 import Plans from './Plans/Plans'
 import Questions from './Questions/Questions'
+import Team from './Team/Team'
 
 const Index: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Index: React.FC = () => {
       <MainSection />
       <Plans />
       <Ebooks />
+      <Team />
       <About />
       <Questions />
       <Contact />
