@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           </div>
         </section>
         <p className={styles.copyright}>
-          <hr />
+          <div className={styles.line} />
           <br />
           Copyright 2023&copy; | Todos los derechos reservados | Página
           desarrollada por Gszcode@
