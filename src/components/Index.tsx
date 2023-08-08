@@ -1,3 +1,4 @@
+import About from './About/About'
 import Ebooks from './Ebooks/Ebooks'
 import Footer from './Footer/Footer'
 import Header from './Header/Header'
@@ -11,6 +12,7 @@ const Index: React.FC = () => {
       <MainSection />
       <Plans />
       <Ebooks />
+      <About />
       <Footer />
     </>
   )
