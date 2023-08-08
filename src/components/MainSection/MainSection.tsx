@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const MainSection: React.FC = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="home">
       <div className={styles.main}>
         <p className={styles.ad}>
           <span>100%</span> Las guías más eficientes para tu meta
@@ -16,11 +16,11 @@ const MainSection: React.FC = () => {
           personal.
         </p>
         <div className={styles.info}>
-          <Link href="#" className={styles.info_contact}>
+          <Link href="#contact" className={styles.info_contact}>
             Contacto
           </Link>
-          <Link href="#" className={styles.info_guides}>
-            Ver Guías
+          <Link href="/testimonials" className={styles.info_guides}>
+            Testimonios
           </Link>
         </div>
       </div>

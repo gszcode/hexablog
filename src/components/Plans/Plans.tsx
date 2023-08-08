@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Plants: React.FC = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="plans">
       <div className={styles.main}>
         <h2 className={styles.title}>PLANES DE ASESORAMIENTO PERSONALIZADOS</h2>
         <div className={styles.articles}>
@@ -25,7 +25,7 @@ const Plants: React.FC = () => {
                     <li key={item}>{item}</li>
                   ))}
                 </ul>
-                <Link href="#" className={styles.plan_buy}>
+                <Link href="#contact" className={styles.plan_buy}>
                   Adquirir ahora
                 </Link>
               </article>

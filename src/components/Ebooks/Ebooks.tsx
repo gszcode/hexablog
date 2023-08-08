@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Ebooks: React.FC = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="ebooks">
       <div className={styles.main}>
         <h2 className={styles.title}>EBOOKS SHARPNESS</h2>
         <div className={styles.articles}>
@@ -28,7 +28,7 @@ const Ebooks: React.FC = () => {
                   <p>
                     Ponte en Contacto <br /> para adquirir el plan.
                   </p>
-                  <Link href="#">Ver más</Link>
+                  <Link href={`/ebooks/${ebook.id}`}>Ver más</Link>
                 </div>
               </article>
             </>

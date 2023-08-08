@@ -7,19 +7,19 @@ const LargeMenu: React.FC = () => {
       className={styles.menu_desktop}
       aria-label="Menú de navegación principal"
     >
-      <Link aria-label="Ir a la página de inicio" href="">
+      <Link aria-label="Ir a la página de inicio" href="#home">
         HOME
       </Link>
-      <Link aria-label="Ver planes disponibles" href="">
+      <Link aria-label="Ver planes disponibles" href="#plans">
         PLANES
       </Link>
-      <Link aria-label="Ver entrenadores" href="">
-        TRAINERS
+      <Link aria-label="Ver entrenadores" href="#ebooks">
+        EBOOKS
       </Link>
-      <Link aria-label="Más información sobre nosotros" href="">
+      <Link aria-label="Más información sobre nosotros" href="#about">
         NOSOTROS
       </Link>
-      <Link aria-label="Ir a la página de inicio" href="">
+      <Link aria-label="Ir a la página de inicio" href="#contact">
         CONTACTO
       </Link>
     </ul>

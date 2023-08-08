@@ -58,6 +58,7 @@
   padding: 0 30px;
 }
 .footer .sections .copyright .line {
+  display: block;
   width: 100%;
   height: 1px;
   background-color: var(--tertiary-color);

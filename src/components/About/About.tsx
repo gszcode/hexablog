@@ -2,7 +2,7 @@ import styles from '@/styles/About.module.css'
 
 const About: React.FC = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <div className={styles.about}>
         <h2 className={styles.title}>Nosotros</h2>
         <span>¿Qúe es Sharpness?</span>
