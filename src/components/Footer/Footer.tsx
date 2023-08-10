@@ -4,10 +4,18 @@ import Links from './LinksComponent'
 import { Instagram } from '../icons/Instagram'
 import { Facebook } from '../icons/Facebook'
 import { Whatsapp } from '../icons/Whatsapp'
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  weight: ['200', '300', '400', '500', '600', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 const Footer: React.FC = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} ${poppins.className}`}>
       <div className={styles.image}>
         <Image
           src="/img/logo.png"
