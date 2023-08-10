@@ -12,6 +12,11 @@ interface DataQuestions {
   answer: string
 }
 
+interface Testimonials {
+  id: number
+  image: string
+}
+
 export const adviceData: Array<Data> = [
   {
     id: 1,
@@ -158,5 +163,40 @@ export const questionsData: Array<DataQuestions> = [
     answer: `Los planes son de 4 semanas (un mesociclo), salvo que abones el PLAN TRIMESTRAL donde el plan dura 12 semanas (3 mesociclos, 4 semanas cada uno) 
       
       Cada 4 semanas se debería renovar el plan.`
+  }
+]
+
+export const testimonialsData: Array<Testimonials> = [
+  {
+    id: 1,
+    image: '/img/testimonial_01.jpg'
+  },
+  {
+    id: 2,
+    image: '/img/testimonial_02.jpg'
+  },
+  {
+    id: 3,
+    image: '/img/testimonial_03.avif'
+  },
+  {
+    id: 4,
+    image: '/img/testimonial_04.avif'
+  },
+  {
+    id: 5,
+    image: '/img/testimonial_05.avif'
+  },
+  {
+    id: 6,
+    image: '/img/testimonial_6.jpg'
+  },
+  {
+    id: 5,
+    image: '/img/testimonial_07.jpg'
+  },
+  {
+    id: 6,
+    image: '/img/testimonial_08.jpg'
   }
 ]
