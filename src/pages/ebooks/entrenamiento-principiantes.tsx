@@ -21,6 +21,8 @@ const EntrenamientoPrincipiantes: React.FC = () => {
             está información nos llevo años, las fuimos incorporando con la
             experiencia y estudió, leer este ebook te ahorrará mucho tiempo
           </p>
+          <br />
+          <br />
           <p>Temas:</p>
           <ul>
             <EbookLi content="Capitulo 1 : Planos, ejes y tipos de movimientos" />

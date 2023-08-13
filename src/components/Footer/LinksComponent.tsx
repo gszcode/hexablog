@@ -11,8 +11,8 @@ const Links: React.FC<Props> = ({ title, link }) => {
     <section className={styles.section}>
       <h3 className={styles.title}>{title}</h3>
       <ul className={styles.links}>
-        {link.map((item) => (
-          <li key={item}>
+        {link.map((item, i) => (
+          <li key={i}>
             <Link href="#" className={styles.item}>
               {item}
             </Link>

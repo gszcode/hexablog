@@ -21,6 +21,8 @@ const CreaTuPropiaRutina: React.FC = () => {
             entrenamiento enseñando los principios y variables, pero lo que más
             se enseña es como adaptar la rutina a tu estilo de vida.
           </p>
+          <br />
+          <br />
           <p>Temas:</p>
           <ul>
             <EbookLi content="Capitulo 1 : Adherencia" />

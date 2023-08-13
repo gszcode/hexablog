@@ -19,15 +19,18 @@ const Los3Basicos: React.FC = () => {
             solida, que va a beneficiar muchísimo en el entrenamiento de fuerza
             con objetivos de hipertrofia.
           </p>
+          <br />
           <p>
             En esta guía van a encontrar en profundidad los 3 básicos de
             powerlifting:
           </p>
+          <br />
           <ul>
             <EbookLi content="Sentadilla" />
             <EbookLi content="Press banca" />
             <EbookLi content="Peso muerto" />
           </ul>
+          <br />
           <p>
             Además, incluye un pequeño capitulo sobre biomecanica basica general
             que es importantisimo para tener un mejor entendimiento de los

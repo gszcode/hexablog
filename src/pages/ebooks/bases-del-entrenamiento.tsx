@@ -25,6 +25,7 @@ const CreaTuPropiaRutina: React.FC = () => {
             servirán al 90% de la población que esté interesada en este hermoso
             mundo del entrenamiento con cargas, los temas son:
           </p>
+          <br />
           <ul>
             <EbookLi content="Beneficios del entrenamiento de fuerza" />
             <EbookLi content="Cómo crece un músculo" />

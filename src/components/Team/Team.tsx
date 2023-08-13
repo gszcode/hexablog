@@ -15,7 +15,7 @@ const Team: React.FC = () => {
             asesorarte en tu camino y que puedas obtener el mejor resultado de
             forma garantizada.
           </p>
-          <Link href="#" className={styles.btn}>
+          <Link href="http://localhost:3000/#contact" className={styles.btn}>
             Comenzar
           </Link>
         </div>

@@ -24,6 +24,8 @@ const CreaTuPropiaRutina: React.FC = () => {
             de este e-book te ahorraras muchísimo tiempo de estudio, y dinero en
             formaciones.
           </p>
+          <br />
+          <br />
           <p>Temas:</p>
           <ul>
             <EbookLi content="Capitulo 1 : Conceptos Básicos" />
@@ -45,6 +47,7 @@ const CreaTuPropiaRutina: React.FC = () => {
             <EbookLi content="Capitulo 9 : Los mejores suplementos para perder grasa" />
             <EbookLi content="Capitulo 10 : Últimos consejos sobre el déficit calorico" />
           </ul>
+          <br />
           <p>
             PD: Esta guía esta pensada para complementarla con el PLAN DE
             ENTRENAMIENTO PARA PERDER GRASA de 12 SEMANAS
