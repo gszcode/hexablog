@@ -10,7 +10,7 @@ const poppins = Poppins({
   display: 'swap'
 })
 
-interface LayoutProps {
+export interface LayoutProps {
   children: ReactNode
 }
 

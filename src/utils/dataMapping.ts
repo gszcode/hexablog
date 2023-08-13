@@ -72,7 +72,7 @@ export const ebooksData: Array<Data> = [
   {
     id: 2,
     img: '/img/ebooks_02.jpg',
-    title: 'los 3 básicos',
+    title: 'los 3 basicos',
     description:
       'Este ebook está enfocado a brindar la información básica y aplicable para conseguir una correcta técnica en la realización de los 3 ejercicios básicos de musculación.'
   },
@@ -93,7 +93,7 @@ export const ebooksData: Array<Data> = [
   {
     id: 5,
     img: '/img/ebooks_05.jpg',
-    title: 'guía: pérdida de grasa',
+    title: 'guia perdida de grasa',
     description:
       'Perder grasa es el objetivo que tienen el 60% de las personas que concurren a un gimnasio, de las cuales solo un 20% logra su objetivo y el otro 40% no lo logra por abandonar antes de tiempo.'
   },

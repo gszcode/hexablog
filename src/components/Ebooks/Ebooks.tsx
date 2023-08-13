@@ -28,7 +28,9 @@ const Ebooks: React.FC = () => {
                   <p>
                     Ponte en Contacto <br /> para adquirir el plan.
                   </p>
-                  <Link href={`/ebooks/${ebook.id}`}>Ver más</Link>
+                  <Link href={`/ebooks/${ebook.title.split(' ').join('-')}`}>
+                    Ver más
+                  </Link>
                 </div>
               </article>
             </>
