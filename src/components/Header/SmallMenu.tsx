@@ -11,27 +11,33 @@ const SmallMenu: React.FC<Props> = ({ menuOpen }) => {
       className={menuOpen ? styles.menu : styles.hidden_menu}
       aria-label="Menú de navegación principal"
     >
-      <Link aria-label="Ir a la página de inicio" href="http://localhost:3000/">
+      <Link
+        aria-label="Ir a la página de inicio"
+        href="https://sharpness.vercel.app/"
+      >
         HOME
       </Link>
       <Link
         aria-label="Ver planes disponibles"
-        href="http://localhost:3000/#plans"
+        href="https://sharpness.vercel.app/#plans"
       >
         PLANES
       </Link>
-      <Link aria-label="Ver entrenadores" href="http://localhost:3000/#ebooks">
+      <Link
+        aria-label="Ver entrenadores"
+        href="https://sharpness.vercel.app/#ebooks"
+      >
         EBOOKS
       </Link>
       <Link
         aria-label="Más información sobre nosotros"
-        href="http://localhost:3000/#about"
+        href="https://sharpness.vercel.app/#about"
       >
         NOSOTROS
       </Link>
       <Link
         aria-label="Ir a la página de inicio"
-        href="http://localhost:3000/#contact"
+        href="https://sharpness.vercel.app/#contact"
       >
         CONTACTO
       </Link>

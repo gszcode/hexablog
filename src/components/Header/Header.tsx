@@ -25,7 +25,10 @@ const Header: React.FC = () => {
   return (
     <header className={`${styles.container} ${poppins.className}`}>
       <div className={styles.header}>
-        <Link href="/" className={styles.header_logo}>
+        <Link
+          href="https://sharpness.vercel.app/"
+          className={styles.header_logo}
+        >
           <Image width={100} height={50} src={logo} alt="Logo Main" />
           <h1>SHARPNESS</h1>
         </Link>
