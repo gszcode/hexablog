@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
     <footer className={`${styles.footer} ${poppins.className}`}>
       <div className={styles.image}>
         <Image
-          src="/img/logo.png"
+          src="/img/main_logo.png"
           alt="Shapness Logo"
           width={160}
           height={100}
